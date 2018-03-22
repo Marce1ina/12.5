@@ -1,77 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
-main {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background: url("https://images.pexels.com/photos/877971/pexels-photo-877971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  height: 100vh;
-  width: 100vw;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+main { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; -ms-flex-line-pack: center; align-content: center; -ms-flex-pack: distribute; justify-content: space-around; background: url("https://images.pexels.com/photos/877971/pexels-photo-877971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); height: 100vh; width: 100vw; font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
-main h1 {
-  font-size: 46px;
-  color: blanchedalmond;
-  text-shadow: 2px 2px 2px black;
-}
+main h1 { text-align: center; font-size: 46px; color: blanchedalmond; text-shadow: 2px 2px 2px black; text-transform: uppercase; }
 
-main div {
-  min-width: 80vw;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-direction: column;
-      flex-direction: column;
-}
+main div { min-width: 80vw; display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; -ms-flex-direction: column; flex-direction: column; }
 
-main div:first-of-type {
-  border: 5px dotted white;
-  background: rgba(0, 0, 0, 0.5);
-  min-height: 40vh;
-}
+main div:first-of-type { border: 5px dotted white; background: rgba(0, 0, 0, 0.5); min-height: 40vh; }
 
-main button {
-  border: 2px solid white;
-  box-shadow: none;
-  padding: 20px 40px;
-  font-family: inherit;
-  font-size: 24px;
-  color: white;
-  background: brown;
-  margin: 40px;
-}
+main .box { display: -ms-flexbox; display: flex; -ms-flex-line-pack: center; align-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; color: white; text-align: center; padding: 60px; }
 
-main button:hover {
-  color: brown;
-  border: 2px solid brown;
-  background: white;
-}
+main .box .quote { font-size: 30px; }
 
-main a {
-  color: #16a085;
-  background: blanchedalmond;
-  padding: 10px 20px;
-  margin-bottom: 30px;
-  font-size: 30px;
-  text-decoration: none;
-}
+main .box .author { padding-top: 30px; font-size: 20px; color: blanchedalmond; }
 
-main a:hover {
-  color: darkcyan;
-}
-/*# sourceMappingURL=style.css.map */
+main button { border: 2px solid white; box-shadow: none; padding: 20px 40px; font-family: inherit; font-size: 24px; color: white; background: brown; margin: 40px; }
+
+main button:hover { color: brown; border: 2px solid brown; background: white; }
+
+main a { color: #16a085; background: blanchedalmond; padding: 10px 20px; margin-bottom: 30px; font-size: 30px; text-decoration: none; }
+
+main a:hover { color: darkcyan; }

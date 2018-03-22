@@ -15,9 +15,11 @@ main {
     width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     h1 {
+        text-align: center;
         font-size: 46px;
         color: blanchedalmond;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 2px 2px 2px black;    
+        text-transform: uppercase;
     }
     div {
         min-width: 80vw;
@@ -29,6 +31,24 @@ main {
             border: 5px dotted white;
             background: rgba(0,0,0, 0.5);
             min-height: 40vh;
+        }
+    }
+    .box {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        padding: 60px;
+        .quote{
+            font-size: 30px;
+        }
+        .author {
+            padding-top: 30px;
+            font-size: 20px;
+            color: blanchedalmond;
         }
     }
     button {
